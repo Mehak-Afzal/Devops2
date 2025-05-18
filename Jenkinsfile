@@ -11,7 +11,7 @@ pipeline {
         stage('Build and Run with Docker') {
             steps {
                 script {
-                    sh 'docker-compose -p guestbook-ci -f Devops/docker-compose.yml up -d --build'
+                    sh 'docker-compose -p guestbook-ci -f docker-compose.yml up -d --build'
                 }
             }
         }
