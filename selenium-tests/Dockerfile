@@ -1,4 +1,4 @@
-  GNU nano 7.2                                                                     Dockerfile                                                                               # Use prebuilt image with Maven, Chrome, ChromeDriver
+# Use prebuilt image with Maven, Chrome, ChromeDriver
 FROM markhobson/maven-chrome:latest
 
 # Set working directory
@@ -9,6 +9,10 @@ COPY . .
 
 # Run tests using Maven
 CMD ["mvn", "test"]
+
+
+
+
 
 
 

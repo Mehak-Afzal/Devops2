@@ -19,3 +19,8 @@ services:
       MYSQL_ROOT_PASSWORD: example
     volumes:
       - ./lamp-db:/docker-entrypoint-initdb.d
+
+  selenium-tests:
+    build: ./selenium-tests
+    container_name: selenium-tests
+    command: mvn test
