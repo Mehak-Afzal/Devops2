@@ -104,7 +104,7 @@ $result = $conn->query("SELECT * FROM entries ORDER BY id DESC");
     <form method="POST">
         <input type="text" name="name" placeholder="Your Name" required>
         <input type="email" name="email" placeholder="Your Email (optional)">
-        <input type="text" name="message" placeholder="Your Message" required>
+        <input type="text" name="message" placeholder="Your Messagee" required>
         <input type="submit" value="Submit">
     </form>
 
